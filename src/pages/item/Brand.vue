@@ -93,7 +93,8 @@
       },
       search: { // 监视搜索字段
         handler() {
-          this.getDataFromServer();
+          this.pagination.page =1;
+          // this.getDataFromServer();
         }
       }
     },
